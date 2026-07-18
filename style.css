@@ -1,22 +1,38 @@
 /* Basic styles */
 body {
-  font-family: Arial, sans-serif;
+  font-family: Verdana, Geneva, sans-serif;
   margin: 0;
   padding: 0;
   line-height: 1.6;
+  font-size: 1.1rem;
+  color: #FFFDD0;
+  background: #2C5EAD;
 }
 header {
-  background: #333;
-  color: #fff;
+  font-family: Verdana, Geneva, sans-serif;
+  background: #2C5EAD;
+  color: #FFFDD0;
   padding: 1rem;
   text-align: center;
 }
 main {
+  font-family: Trebuchet MS;
+  background: #4BB8FA;
+  font-size: 1.5rem;
+  color: #FFFDD0;
   padding: 1rem;
+  width: 100%;
+  box-sizing: border-box;
+  text-align: center;
+}
+main section {
+  max-width: 900px;
+  margin: 0 auto;
 }
 footer {
-  background: #f4f4f4;
-  padding: 0.5rem;
+  background: #1591DC;
+  color: #FFFDD0;
   text-align: center;
+  padding: 1rem;
   font-size: 0.9rem;
 }
