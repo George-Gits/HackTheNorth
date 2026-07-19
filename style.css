@@ -19,16 +19,36 @@ main {
   font-family: Trebuchet MS;
   background: #4BB8FA;
   font-size: 1.5rem;
+  line-height: 1;
   color: #FFFDD0;
   padding: 1rem;
   width: 100%;
   box-sizing: border-box;
   text-align: center;
 }
+
+main p {
+  line-height: 1.2;
+  text-align: center;
+}
+
+main p.smallp {
+  font-size: 1.1rem;
+  line-height: 1.3;
+  margin: 1.5rem 0 0;
+}
+
+main p.mid {
+  font-size: 1rem;
+  line-height: 1.3;
+  text-align: center;
+}
+
 main section {
   max-width: 900px;
-  margin: 0 auto;
+  text-align: center;
 }
+
 footer {
   background: #1591DC;
   color: #FFFDD0;
