@@ -56,6 +56,28 @@ main small {
   margin: 0.25rem 0 0.6rem;
 }
 
+.project-images {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+  margin: 1rem 0;
+}
+
+.project-img {
+  max-width: 100%;
+  width: 100%;
+  height: auto;
+  border-radius: 0.75rem;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.15);
+}
+
+@media (min-width: 640px) {
+  .project-img {
+    width: calc(50% - 0.5rem);
+  }
+}
+
 /* Lead paragraph (intro) */
 .lead {
   font-size: 1.05rem;
